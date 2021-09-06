@@ -146,12 +146,12 @@ html {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   padding: 60px;
-  color: blue;
+  color: #4f5964;
   text-decoration: none;
 }
 
 .navbar li a:hover {
-  background-color: black;
+  background-color: #4f5964;
   color: white;
 }
 
@@ -201,11 +201,6 @@ html {
   transition-duration: 0.4s;
 }
 
-/* .welcome p a:visited{
-    background-color: #4f8caf;
-    color: white;
-} */
-
 .profile {
   background-image: url(images/profile_background.png);
   width: 100%;
@@ -243,18 +238,18 @@ html {
 }
 
 .caption_two {
-  margin: 5px 10px 0px 35px;
-  font-size: 18px;
+  margin: 40px 10px 0px 35px;
+  font-size: 20px;
   font-family: Montserrat;
+  line-height: 3;
   color: #4f5964;
-  margin-right: 0px;
   text-align: left;
 }
 
 .education {
   background-image: url(images/profile_background_flip_2.png);
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -275,7 +270,8 @@ html {
 
 .ipeka {
   margin-left: 5%;
-  margin-bottom: 78%;
+  height: 500px;
+  margin-bottom: 20px;
   margin-top: 3%;
   background-color: white;
   border-radius: 20px;
@@ -311,17 +307,17 @@ html {
   margin-top: 20px;
 }
 
-.sd hr{
-    width: 40%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 1px;
-    margin-bottom: 20px;
+.sd hr {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1px;
+  margin-bottom: 20px;
 }
 
 .penabur {
   margin-left: 7.5%;
-  margin-bottom: 78%;
+  height: 500px;
   margin-top: 3%;
   background-color: white;
   border-radius: 20px;
@@ -355,7 +351,7 @@ html {
 
 .its {
   margin-left: 7%;
-  margin-bottom: 78%;
+  height: 500px;
   margin-top: 3%;
   background-color: white;
   border-radius: 20px;
